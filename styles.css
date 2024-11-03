@@ -63,6 +63,34 @@ body{
 
 .header{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 20px;
+}
+
+.form-input{
+    width: 500px;
+    background-color: #d1d5db;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    margin-left: 20px;
+    margin-right: 200px;
+    
+}
+
+.avatarNavbar{
+    margin: 0 20px;
+}
+
+.welcome{
 
 }
 
